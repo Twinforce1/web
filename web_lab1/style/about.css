@@ -1,0 +1,18 @@
+.middle {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.middle .block_title {
+    margin-top:120px;
+    margin-bottom: 0;
+}
+.middle div {
+    padding-bottom: 40px;
+}
+
+.middle div:last-child {
+    padding-bottom: 120px;
+}
