@@ -1,0 +1,178 @@
+body {
+    font-family: Courier New, serif;
+    margin: 0;
+    min-width: 250px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color:black;
+}
+
+.CRUD a {
+    font-size: 24px;
+}
+
+.CRUD a:hover {
+    font-size: 26px;
+    transition: .1s;
+}
+
+.CRUD {
+    margin-top : 20px;
+    float: right;
+    margin-right: 10%;
+}
+
+a:hover {
+    color: blue;
+}
+
+ul > li:hover  {
+    color: black;
+
+}
+
+.head:hover {
+    color: black;
+}
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+
+}
+
+ul li {
+    background: white;
+    border-bottom: black solid 1px;
+}
+
+
+
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+
+.header {
+    padding: 30px 40px;
+    color: black;
+    text-align: center;
+}
+
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+
+
+.head_title {
+    width: 100px;
+}
+
+.head:nth-child(3) {
+    margin-left: 60px;
+}
+
+.head:nth-child(4) {
+    float: right;
+}
+
+#myUL li a {
+    display: inline-block;
+}
+
+#myUL li a:first-child {
+    margin-right: 40px;
+}
+
+
+#myUL li a:nth-child(2) {
+    margin-right: 40px;
+}
+
+#myUL li a:nth-child(4) {
+    float: right;
+}
+
+
+#myUL li a:last-child{
+    float: right;
+    color: red;
+    margin-right: 5%;
+}
+
+#myDIV input{
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: Courier New, serif;
+}
+
+#myDIV button {
+    float:right;
+    font-family: Courier New, serif;
+}
