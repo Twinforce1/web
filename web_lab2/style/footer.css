@@ -1,0 +1,25 @@
+.footer_info {
+    margin-bottom: 30px;
+}
+
+.footer_button {
+    margin-bottom: 60px;
+}
+
+.footer_social img {
+    display: inline-block;
+    width: 40px;
+    margin-right: 6%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer_social img:first-child {
+    margin-left: 5%;
+}
+
+.footer_social img:active {
+    width: 38px;
+    transition: 0.1s;
+}
+

@@ -1,0 +1,31 @@
+.main_png {
+    width: 940px;
+}
+
+.portfolio_png {
+    width: 940px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.skill img {
+    top: 10%;
+    left: 25%;
+    position: absolute;
+    max-width: 70px;
+}
+
+.skill .stars {
+    position: absolute;
+    top: 90%;
+}
+
+@media (max-width: 1000px) {
+    .main_png {
+        width: 600px;
+    }
+
+    .portfolio_png {
+        width: 600px;
+    }
+}
